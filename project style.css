@@ -1,0 +1,613 @@
+    body {
+        background-color: #000;
+        font-family: Lucida Handwriting;
+    }
+    /* Add a black background color to the top navigation */
+    
+    .topnav {
+        background-color: brown;
+        overflow: hidden;
+        width: 100%;
+    }
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    /* Add a color to the active/current link */
+    
+    .topnav a.active {
+        background-color: darkgoldenrod;
+        color: white;
+    }
+    
+    #logo {
+        height: 40%;
+        width: 40%;
+        margin: auto;
+        display: block;
+    }
+    
+    #topsec {
+        background-image: url(Pepperoni_Pizza_637642053628235271.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    #open {
+        width: 340px;
+    }
+    
+    #text1 {
+        color: #ddd;
+        background: #000;
+    }
+    
+    #text2 {
+        color: greenyellow;
+        text-align: center;
+    }
+    
+    #imgs {
+        width: 100%;
+    }
+    
+    @media only screen and (max-width:4000px) {
+        .img {
+            height: 250px;
+            width: 33%;
+        }
+        #text1 {
+            font-size: 20px;
+        }
+        #open {
+            width: 280px;
+        }
+        #text2 {
+            font-size: 28px;
+        }
+        .topnav a {
+            font-size: 11px;
+        }
+    }
+    
+    @media only screen and (max-width:1093px) {
+        .img {
+            height: 250px;
+            width: 32.8%;
+        }
+        #text1 {
+            font-size: 20px;
+        }
+        #open {
+            width: 280px;
+        }
+        #text2 {
+            font-size: 28px;
+        }
+        .topnav a {
+            font-size: 11px;
+        }
+    }
+    
+    @media only screen and (max-width:688px) {
+        .img {
+            height: 250px;
+            width: 32.7%;
+        }
+        #text1 {
+            font-size: 20px;
+        }
+        #open {
+            width: 280px;
+        }
+        #text2 {
+            font-size: 28px;
+        }
+        .topnav a {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (max-width:612px) {
+        .img {
+            height: 250px;
+            width: 32.7%;
+        }
+        #text1 {
+            font-size: 20px;
+        }
+        #open {
+            width: 280px;
+        }
+        #text2 {
+            font-size: 28px;
+        }
+        .topnav a {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (max-width:583px) {
+        .img {
+            height: 250px;
+            width: 32.6%;
+        }
+        #text1 {
+            font-size: 18px;
+        }
+        #open {
+            width: 250px;
+        }
+        #text2 {
+            font-size: 24px;
+        }
+        .topnav a {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (max-width:505px) {
+        .img {
+            height: 250px;
+            width: 32.5%;
+        }
+        #text1 {
+            font-size: 16px;
+        }
+        #open {
+            width: 225px;
+        }
+        #text2 {
+            font-size: 21px;
+        }
+        .topnav a {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (max-width:447px) {
+        .img {
+            height: 200px;
+            width: 32.4%;
+        }
+        #text1 {
+            font-size: 14px;
+        }
+        #open {
+            width: 195px;
+        }
+        #text2 {
+            font-size: 20px;
+        }
+        .topnav a {
+            font-size: 12px;
+        }
+    }
+    
+    @media only screen and (max-width:414px) {
+        .img {
+            height: 150px;
+            width: 32.4%;
+        }
+        #text1 {
+            font-size: 14px;
+        }
+        #open {
+            width: 195px;
+        }
+        #text2 {
+            font-size: 19px;
+        }
+        .topnav a {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:401px) {
+        .img {
+            height: 150px;
+            width: 32.3%;
+        }
+        #text1 {
+            font-size: 12px;
+        }
+        #open {
+            width: 170px;
+        }
+        #text2 {
+            font-size: 18px;
+        }
+        .topnav a {
+            font-size: 10px;
+        }
+    }
+    
+    @media only screen and (max-width:375px) {
+        .img {
+            height: 150px;
+            width: 32.3%;
+        }
+        #text1 {
+            font-size: 12px;
+        }
+        #open {
+            width: 170px;
+        }
+        #text2 {
+            font-size: 17px;
+        }
+        .topnav a {
+            font-size: 9px;
+        }
+    }
+    
+    @media only screen and (max-width:363px) {
+        .img {
+            height: 150px;
+            width: 32.2%;
+        }
+        #text1 {
+            font-size: 11px;
+        }
+        #open {
+            width: 155px;
+        }
+        #text2 {
+            font-size: 16px;
+        }
+        .topnav a {
+            font-size: 8px;
+        }
+    }
+    
+    @media only screen and (max-width:335px) {
+        .img {
+            height: 130px;
+            width: 32.1%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 15px;
+        }
+        .topnav a {
+            font-size: 7px;
+        }
+    }
+    
+    @media only screen and (max-width:315px) {
+        .img {
+            height: 130px;
+            width: 32%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 14px;
+        }
+        .topnav a {
+            font-size: 6px;
+        }
+    }
+    
+    @media only screen and (max-width:295px) {
+        .img {
+            height: 130px;
+            width: 32%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 13px;
+        }
+        .topnav a {
+            font-size: 5px;
+        }
+    }
+    
+    @media only screen and (max-width:285px) {
+        .img {
+            height: 130px;
+            width: 31.9%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 13px;
+        }
+        .topnav a {
+            font-size: 5px;
+        }
+    }
+    
+    @media only screen and (max-width:276px) {
+        .img {
+            height: 130px;
+            width: 31.8%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 12px;
+        }
+        .topnav a {
+            font-size: 4px;
+        }
+    }
+    
+    @media only screen and (max-width:256px) {
+        .img {
+            height: 100px;
+            width: 31.8%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 11px;
+        }
+        .topnav a {
+            font-size: 3.5px;
+        }
+    }
+    
+    @media only screen and (max-width:250px) {
+        .img {
+            height: 100px;
+            width: 31.10%;
+        }
+        #text1 {
+            font-size: 10px;
+        }
+        #open {
+            width: 140px;
+        }
+        #text2 {
+            font-size: 11px;
+        }
+        .topnav a {
+            font-size: 3.2px;
+        }
+    }
+    
+    #tb1 {
+        background-color: burlywood;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        border-collapse: collapse;
+    }
+    
+    #tb1 img {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .cap {
+        background-color: burlywood;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        color: crimson;
+    }
+    
+    h6 {
+        background-color: gray;
+        color: cornsilk;
+    }
+    
+    #tb2 {
+        background-color: whitesmoke;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    
+    @media only screen and (max-width: 343px) {
+        #tb2 {
+            font-size: x-small;
+            width: 20px;
+        }
+    }
+    
+    #tb2div {
+        display: block;
+    }
+    
+    .pn {
+        font-size: x-large;
+        text-align: left;
+        color: darkred;
+    }
+    
+    .pc {
+        font-size: large;
+        text-align: left;
+        opacity: 0.5;
+    }
+    
+    .hot {
+        background-color: red;
+        color: whitesmoke;
+    }
+    
+    .new {
+        background-color: gray;
+        color: saddlebrown;
+    }
+    
+    #tb3 {
+        background-color: whitesmoke;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    
+    #tb3div {
+        display: none;
+    }
+    
+    #tb4 {
+        background-color: whitesmoke;
+        margin: auto;
+        font-size: xx-large;
+        text-align: center;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    
+    #tb4div {
+        display: none;
+    }
+    
+    .about {
+        text-align: center;
+        color: white;
+    }
+    
+    .chefs {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    
+    #tb5 {
+        background-color: turquoise;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .intext {
+        width: 95%;
+    }
+    
+    .radio {
+        padding-left: 15px;
+    }
+    
+    .submit {
+        text-align: center;
+    }
+    
+    .menubutton {
+        font-size: x-large;
+        text-align: center;
+        color: cornsilk;
+        background-color: darkblue;
+    }
+    
+    #menubuttons {
+        text-align: center;
+    }
+    
+    #messages {
+        color: red;
+    }
+    
+    .checkicon {
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        position: absolute;
+        display: none;
+    }
+    
+    .erroricon {
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        position: absolute;
+        display: none;
+    }
+    
+    #Notes {
+        width: 95%;
+    }
+    
+    #pizza {
+        width: 96.5%
+    }
+    /* Style the submit button */
+    
+    input[type=submit] {
+        background-color: darkblue;
+        color: white;
+        width: 100px;
+    }
+    /* The message box is shown when the user clicks on the password field */
+    
+    #message1 {
+        display: none;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #message2 {
+        display: none;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #message3 {
+        display: none;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #message4 {
+        display: none;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #message5 {
+        display: none;
+        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #hint {
+        height: 20px;
+        width: 25px;
+    }

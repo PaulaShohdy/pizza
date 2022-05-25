@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia</title>
+    <link rel="stylesheet" href="project style.css">
+    <script src="project code.js"></script>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="Offers.html">Offers</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Registration.html">Registration</a>
+        <a href="About.html">About</a>
+    </div>
+    <div id="topsec">
+        <img id="logo" src="PicsArt_05-17-10.51.40.png" alt="logo">
+        <div id="open">
+            <h2 id="text1">Opens from 9 AM to 2 AM</h2>
+        </div>
+    </div>
+    <div>
+        <form onsubmit="return check()" action="/html_sh.asp">
+            <table id="tb5" border="1px">
+                <caption class="cap">For Online Order Please fill the form</caption>
+                <tr>
+                    <td>First Name:</td>
+                    <td>
+                        <input class="intext" type="text" id="fnam" name="fnam" pattern="[A-Za-z]{0,20}[^0-9^ ]+" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td>
+                        <input class="intext" type="text" id="lnam" name="lnam" pattern="[A-Za-z]{0,20}[^0-9^ ]+" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td>
+                        <input class="intext" type="email" id="e-mail" name="e-mail" placeholder="abc@gmail.com" pattern="[A-Za-z0-9_\.]{1,15}@[A-Za-z]{1,15}\.com" title="Please enter a valid e-mail" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password:
+                        <img id="hint" title="No white spaces are allowed in the password!&#10;Password legth must be 8!&#10;Password must include one digit at least!&#10;Password must include one special character like (- , _ , # , *, &)!*&#10;Password must start with uppercase character!"
+                            src="light-bulb-color.png" alt="">
+                    </td>
+                    <td>
+                        <input class="intext" type="password" name="pass" id="pass" size="8" maxlength="8" required>
+
+                        <span id="message1"></span>
+                        <span id="message2"></span>
+                        <span id="message3"></span>
+                        <span id="message4"></span>
+                        <span id="message5"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile Phone:</td>
+                    <td>
+                        <input class="intext" type="text" id="phone" name="phone" pattern="[0-9]{10}[^A-Z^a-z^ ]" title="Please enter a valid number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <input class="intext" type="text" id="address" name="address" required>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td class="radio">
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Order:</td>
+                    <td>
+                        <select name="pizza" id="pizza" multiple required>
+                            <option value="Margherita">Margherita</option>
+                            <option value="Formaggio">Formaggio</option>
+                            <option value="Chicken">Chicken</option>
+                            <option value="Pineapple'o'clock">Pineapple'o'clock</option>
+                            <option value="Meat Town">Meat Town</option>
+                            <option value="Parma">Parma</option>
+                          </select>
+                        <textarea id="Notes" name="Notes" rows="4" cols="25" placeholder="Notes"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Salads:</td>
+                    <td><input type="checkbox" name="salads" id="Lasagna" value="Lasagna">
+                        <label for="Lasagna">Lasagna</label><br>
+                        <input type="checkbox" name="salads" id="Ravioli" value="Ravioli">
+                        <label for="Ravioli">Ravioli</label><br>
+                        <input type="checkbox" name="salads " id="Spaghetti Classica" value="Spaghetti Classica">
+                        <label for="Spaghetti Classica">Spaghetti Classica</label><br>
+                        <input type="checkbox" name="salads " id="Seafood pasta" value="Seafood pasta">
+                        <label for="Seafood pasta">Seafood pasta</label></td>
+                </tr>
+                <tr>
+                    <td>
+                        Extras:
+                    </td>
+                    <td>
+                        <input type="checkbox" name="extras" id="Ketchup" value="Ketchup">
+                        <label for="Ketchup">Ketchup</label><br>
+                        <input type="checkbox" name="extras" id="Mayonnaise" value="Mayonnaise">
+                        <label for="Mayonnaise">Mayonnaise</label><br>
+                        <input type="checkbox" name="extras " id="Sauce" value="Sauce">
+                        <label for="Sauce">Sauce</label><br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="submit " colspan="2 "><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

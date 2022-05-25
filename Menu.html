@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamma Mia</title>
+    <link rel="stylesheet" href="project style.css">
+    <script src="project code.js"></script>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="Offers.html">Offers</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Registration.html">Registration</a>
+        <a href="About.html">About</a>
+    </div>
+    <div id="topsec"><img id="logo" src="PicsArt_05-17-10.51.40.png" alt="logo">
+        <div id="open">
+            <h2 id="text1">Opens from 9 AM to 2 AM</h2>
+        </div>
+    </div>
+    <div id="menubuttons">
+        <button class="menubutton" onclick="showpizza()">Pizaa Menu</button>
+        <button class="menubutton" onclick="showsalads()">Salads</button>
+        <button class="menubutton" onclick="showextras()">Extras</button>
+    </div>
+    <br>
+    <div id="tb2div">
+        <table id="tb2" border="1px">
+            <caption class="cap">Pizza Menu</caption>
+            <tr>
+                <th>Pizza</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Margherita</p>
+                    <p class="pc">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>90 L.E</h6>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Formaggio</p>
+                    <p class="pc">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>100 L.E</h6>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Chicken</p>
+                    <p class="pc">Fresh tomatoes, mozzarella, chicken, onions</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>120 L.E</h6>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Pineapple'o'clock</p>
+                    <p class="pc">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>150 L.E</h6>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Meat Town <b class="hot">&nbspHOT!&nbsp</b></p>
+                    <p class="pc">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>180 L.E</h6>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pn">Parma <b class="new">&nbspNEW&nbsp</b></p>
+                    <p class="pc">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</p>
+                </td>
+                <td>
+                    <div class="price">
+                        <h6>200 L.E</h6>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div id="tb3div">
+            <table id="tb3" border="1px">
+                <caption class="cap">Salads</caption>
+                <tr>
+                    <th>Salad</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pn">Lasagna <b class="new">&nbspPopular&nbsp</b></p>
+                        <p class="pc">Special sauce, mozzarella, parmesan, ground beef</p>
+                    </td>
+                    <td>
+                        <div class="price">
+                            <h6>95 L.E</h6>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pn">Ravioli</p>
+                        <p class="pc">Ravioli filled with cheese</p>
+                    </td>
+                    <td>
+                        <div class="price">
+                            <h6>100 L.E</h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pn">Spaghetti Classica</p>
+                        <p class="pc">Fresh tomatoes, onions, ground beef</p>
+                    </td>
+                    <td>
+                        <div class="price">
+                            <h6>80 L.E</h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pn">Seafood pasta</p>
+                        <p class="pc">Salmon, shrimp, lobster, garlic</p>
+                    </td>
+                    <td>
+                        <div class="price">
+                            <h6>210 L.E</h6>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
+            <br>
+            <divt id="tb4div">
+                <table id="tb4" border="1px">
+                    <caption class="cap">Extras</caption>
+                    <tr>
+                        <th>Species</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="pn">Ketchup</p>
+                        </td>
+                        <td>
+                            <div class="price">
+                                <h6>5 L.E</h6>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="pn">Mayonnaise</p>
+
+                        </td>
+                        <td>
+                            <div class="price">
+                                <h6>5 L.E</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="pn">Sauce</p>
+
+                        </td>
+                        <td>
+                            <div class="price">
+                                <h6>10 L.E</h6>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+</body>
+
+</html>
